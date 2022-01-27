@@ -5,6 +5,27 @@ body {
 Header {
     color: white;
     background-color: #004175;
-    border: 19px #89deef;
-    padding: 1rem;
+    background-size: cover;
+    padding: 1rem 1;
+    border: 2px solid #89deef;
+    text-indent: 40px;
     }   
+
+ img {
+        width: 20%; 
+        height: auto;
+    }
+
+.container {
+    flex-direction: flex;
+    font-family: "Oswald";
+    text-align: ;
+}
+
+.traits {
+    font-size: 13px;
+    background-color: #89deef;
+    border:10px ;
+    display:flex;
+    border-radius: 10px;
+}
