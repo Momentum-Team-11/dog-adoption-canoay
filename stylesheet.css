@@ -1,5 +1,10 @@
+body {
+    font-family: "Open Sans";
+}
+
 Header {
     color: white;
-    font: Open Sans;
-    style="background-color:004175;"
-}
+    background-color: #004175;
+    border: 19px #89deef;
+    padding: 1rem;
+    }   
