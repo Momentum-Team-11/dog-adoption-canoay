@@ -31,4 +31,5 @@ Header {
     background-color: #89deef;
     border-color: #89deef;
     border-radius: 10px;
+    flex-direction: rows;
 }
