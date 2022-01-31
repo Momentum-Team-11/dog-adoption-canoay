@@ -12,14 +12,16 @@ Header {
     margin: -10px;
     }   
 
- .dog-photo {
+ .dogphoto img {
        width: 30%;
        height: auto;
     }
 
+
 .container {
    display: inline;
    font-family: "Oswald";
+   margin:-10px;
 }
 
 .name {
@@ -27,13 +29,24 @@ Header {
     font-size: 15px;
 }
 
+body {
+    flex-direction: row;
+}
+
 .traits {
     font-size: 11px;
     font-family: "Open Sans";
-    border: 10px;
+    border: 12px;
     background-color: #89deef;
     border-color: #89deef;
     border-radius: 5px;
-    flex-direction: row;
-    
-}
+    flex-flow: row;
+
+    @media all and (min-width: 800px) {
+         body    { flex: 3 0px; }
+        .aside-1 { order: 1; } 
+         body   { order: 2; }
+        .aside-2 { order: 3; }
+        .footer  { order: 4; }
+      }
+
