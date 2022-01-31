@@ -1,5 +1,8 @@
 body {
     font-family: "Open Sans";
+    background-color: white;
+    display: inline-flex;
+    width: 100%;
 }
 
 Header {
@@ -13,15 +16,20 @@ Header {
     }   
 
  .dogphoto img {
-       width: 30%;
-       height: auto;
+       width: 200px;
+       height: 133px;
     }
 
-
+.main {
+    width: 60%;
+}
 .container {
-   display: inline;
+   flex-direction: row;
    font-family: "Oswald";
-   margin:-10px;
+   display: flexbox;
+   align-items: flex-start;
+   background-color: white;
+   
 }
 
 .name {
@@ -29,24 +37,35 @@ Header {
     font-size: 15px;
 }
 
-body {
-    flex-direction: row;
-}
 
 .traits {
     font-size: 11px;
     font-family: "Open Sans";
-    border: 12px;
     background-color: #89deef;
     border-color: #89deef;
-    border-radius: 5px;
-    flex-flow: row;
-
-    @media all and (min-width: 800px) {
-         body    { flex: 3 0px; }
-        .aside-1 { order: 1; } 
-         body   { order: 2; }
-        .aside-2 { order: 3; }
-        .footer  { order: 4; }
+    border-radius: 3px;
+    display: inline-flex;
+    flex-wrap: wrap;
+  
+    
       }
 
+
+aside {
+    width: 20%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    font-style: italic;
+    color: #F2F2F2;
+    }
+
+footer img {
+    width: 440px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    background-color:#5134a8;
+    margin: -6px;
+}
+    
