@@ -1,6 +1,5 @@
 body {
     font-family: "Open Sans";
-    background-color: white;
     display: inline-flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -17,9 +16,10 @@ Header {
     margin: -10px;
     }   
 
-    .dog-rows{
+    #dog-rows{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
     }
  .dogphoto img {
        width: 200px;
@@ -29,7 +29,7 @@ Header {
 .main {
     width: 60%;
 }
-.container {
+#container {
    font-family: "Oswald";
    display: inline-flexbox;
    flex-direction: row;
@@ -53,8 +53,6 @@ Header {
     padding: 0.2rem;
     display: inline-flex;
     flex-wrap: wrap;
-  
-    
       }
 
 
@@ -72,6 +70,7 @@ footer img {
     height: 300px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     background-color:#5134a8;
     margin: -6px;
 }
