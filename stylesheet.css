@@ -12,25 +12,28 @@ Header {
     margin: -10px;
     }   
 
- img {
-        width: 30%; 
-        height: auto;
+ .dog-photo {
+       width: 30%;
+       height: auto;
     }
 
 .container {
    display: inline;
-   flex-wrap: wrap;
    font-family: "Oswald";
 }
 
+.name {
+    margin-bottom: -15px;
+    font-size: 15px;
+}
+
 .traits {
-    font-size: 12px;
+    font-size: 11px;
     font-family: "Open Sans";
-    border: 5px;
-    display:flex-inline;
-    align-items: flex-start;
+    border: 10px;
     background-color: #89deef;
     border-color: #89deef;
     border-radius: 5px;
+    flex-direction: row;
     
 }
